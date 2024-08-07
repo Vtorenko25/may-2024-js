@@ -14,17 +14,17 @@ let book1 = {
     title: 'green mile',
     pageCount: 322,
     genre: 'fantastic'
-};
+}
 let book2 = {
     title: 'Forest Gampt',
     pageCount: 420,
     genre: 'fantastic'
-};
+}
 let book3 = {
     title: 'Grand',
     pageCount: 388,
     genre: 'fantastic'
-};
+}
 
 let book4 = {
     title: 'green mile',
@@ -36,7 +36,7 @@ let book4 = {
             age: 54
         }
     ]
-};
+}
 let book5 = {
     title: 'Forest Gampt',
     pageCount: 420,
@@ -47,7 +47,7 @@ let book5 = {
             age: 72
         }
     ]
-};
+}
 let book6 = {
     title: 'Grand',
     pageCount: 388,
@@ -58,7 +58,7 @@ let book6 = {
             age: 48
         }
     ]
-};
+}
 
 let users = [
     {
@@ -159,14 +159,14 @@ let temperatures = {
         day: 27,
         evening: 12
     }
-};
+}
 
 let x = 1;
 if (x != 0) {
     console.log('Вірно!');
 } else {
     console.log('Не вірно');
-};
+}
 
 let time = 60;
 if (time >= 0 && time <= 15) {
@@ -187,7 +187,7 @@ if (day >= 1 && day <= 10) {
     console.log('Друга декада');
 } else if (day >= 21 && day <= 31) {
     console.log('Третя декада');
-};
+}
 
 switch (6) {
     case 1:
@@ -211,7 +211,7 @@ switch (6) {
     case 7:
         console.log('Sunday');
         break;
-};
+}
 
 let a = 10;
 let b = 20;
@@ -222,7 +222,6 @@ if (a > b) {
 } else if (a = b) {
     console.log('Числа рівні');
 }
-;
 
 let X = !!'';
 if (!(X == !!0 || X == !!'' || X == !!undefined || X == !!null || X == !!NaN)) {
