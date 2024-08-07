@@ -40,9 +40,9 @@ console.log(typeof a);
 console.log(typeof b);
 console.log(typeof c);
 
-let name = prompt();
-let firstname = prompt();
-let age = prompt();
+let name = prompt('Як Вас звати?');
+let firstname = prompt('Ваше прізвище');
+let age = prompt('Скільки Вам років?');
 
 console.log(`Моє ім'я ${name}. Моє прізвище ${firstname}. Мій вік ${+age}`);
 
