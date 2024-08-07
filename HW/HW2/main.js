@@ -177,10 +177,9 @@ if (time >= 0 && time <= 15) {
     console.log('Третя четверть');
 } else if (time >= 46 && time <= 60) {
     console.log('Четверта четверть');
-};
+}
 
 let day = 31;
-
 if (day >= 1 && day <= 10) {
     console.log('Перша декада');
 } else if (day >= 11 && day <= 20) {
