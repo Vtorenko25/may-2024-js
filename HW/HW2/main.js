@@ -124,41 +124,13 @@ console.log(users[8].pasword);
 console.log(users[9].pasword);
 
 let temperatures = {
-    Monday: {
-        morning: 10,
-        day: 25,
-        evening: 12
-    },
-    Tuesday: {
-        morning: 9,
-        day: 28,
-        evening: 14
-    },
-    Wednesday: {
-        morning: 7,
-        day: 16,
-        evening: 9
-    },
-    Thursday: {
-        morning: 12,
-        day: 22,
-        evening: 6
-    },
-    Friday: {
-        morning: 18,
-        day: 35,
-        evening: 16
-    },
-    Saturday: {
-        morning: 19,
-        day: 42,
-        evening: 22
-    },
-    Sunday: {
-        morning: 14,
-        day: 27,
-        evening: 12
-    }
+    Monday: {morning: 10, day: 25, evening: 12},
+    Tuesday: {morning: 9, day: 28, evening: 14},
+    Wednesday: {morning: 7, day: 16, evening: 9},
+    Thursday: {morning: 12, day: 22, evening: 6},
+    Friday: {morning: 18, day: 35, evening: 16},
+    Saturday: {morning: 19, day: 42, evening: 22},
+    Sunday: {morning: 14, day: 27, evening: 12}
 }
 
 let x = 1;
