@@ -58,3 +58,42 @@ for (let product of products){
     )
 }
 
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true}
+];
+
+for (let user of users){
+    if(user.status){
+        document.write(
+            `<div>
+          <h3>Name - ${user.name}, Status - ${user.status}</h3>
+        </div>`);
+    }
+}
+for (let user of users){
+    if(!user.status){
+        document.write(
+            `<div>
+          <h3>Name - ${user.name}, Status - ${user.status}</h3>
+        </div>`);
+    }
+}
+for (let user of users){
+    if(user.age > 30){
+        document.write(
+            `<div>
+          <h3>Name - ${user.name}, Status - ${user.age}</h3>
+        </div>`);
+    }
+}
+
