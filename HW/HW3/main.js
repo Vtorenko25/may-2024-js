@@ -18,10 +18,12 @@ while (k <= 20){
     k++;
 }
 
-let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js']
+
 for (let i = 0; i < listOfItems.length; i++) {
+
     const listOfItem = listOfItems[i];
-    document.write(`<ul class="listOfItem">
+    document.write(`<ul class="listOfItem">)
         <li>${listOfItem}</li>
 </ul>`)
 }

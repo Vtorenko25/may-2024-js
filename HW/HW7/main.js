@@ -11,8 +11,8 @@ function Users(id, name, surname, email, phone){
 
 let User = [];
 for(let i = 1; i <= 10; i++){
-    User.push(new Users(this.id=`${i}`, this.name=`kokos${i}`, this.surname = `kokosovich${i}`, this.email = `kokos${i}@gmail.com`,
-        this.phone=`063${i}${i}${i}${i}${i}${i}${i}`));
+    User.push(new Users(id=`${i}`, name=`kokos${i}`, surname = `kokosovich${i}`, email = `kokos${i}@gmail.com`,
+        phone=`063${i}${i}${i}${i}${i}${i}${i}`));
 }
 console.log(User);
 
@@ -50,8 +50,8 @@ function product(title, price){
 let Clients = [];
 
 for(let i = 1; i <= 10; i++){
-    Clients.push(new Client(this.id=`${i}`, this.name=`kokos${i}`, this.surname = `kokosovich${i}`, this.email = `kokos${i}@gmail.com`,
-        this.phone=`063${i}${i}${i}${i}${i}${i}${i}`, this.order= [new product(`tv${i}`, `${Math.floor(Math.random() * 50000)}`)] ));
+    Clients.push(new Client(id=`${i}`, name=`kokos${i}`, surname = `kokosovich${i}`, email = `kokos${i}@gmail.com`,
+        phone=`063${i}${i}${i}${i}${i}${i}${i}`, order= [new product(`tv${i}`, `${Math.floor(Math.random() * 50000)}`)] ));
 };
 
 console.log(Clients);
@@ -164,7 +164,7 @@ class Cinderella{
 }
 let Cinderellas = [];
 for( let i = 1; i <= 10; i++){
-    Cinderellas.push(new Cinderella(this.name = `Alla-${i}`, this.age = 18+ +`${i}`, this.footSize = 35 + +`${i}`));
+    Cinderellas.push(new Cinderella(name = `Alla-${i}`, age = 18+ +`${i}`, footSize = 35 + +`${i}`));
 }
 console.log(Cinderellas);
 
