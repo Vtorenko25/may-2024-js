@@ -11,9 +11,17 @@ function Users(id, name, surname, email, phone){
 
 let User = [];
 for(let i = 1; i <= 10; i++){
-    User.push(new Users(`${i}`, `kokos${i}`,  `kokosovich${i}`,  `kokos${i}@gmail.com`,
-        `063${i}${i}${i}${i}${i}${i}${i}`));
+    let phone;
+    if (i === 10) {
+        phone = '0630000000';
+    } else {
+        phone = `063${i}${i}${i}${i}${i}${i}${i}`;
+    }
+    User.push(new Users(i, `kokos${i}`,  `kokosovich${i}`,  `kokos${i}@gmail.com`,
+        phone));
 }
+
+
 console.log(User);
 
 // Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
@@ -164,7 +172,7 @@ class Cinderella{
 }
 let Cinderellas = [];
 for( let i = 1; i <= 10; i++){
-    Cinderellas.push(new Cinderella( `Alla-${i}`,  18+ +`${i}`,  35 + +`${i}`));
+    Cinderellas.push(new Cinderella( `Alla-${i}`,  18+ i,  35 + i));
 }
 console.log(Cinderellas);
 
