@@ -18,14 +18,14 @@ document.body.append(div, divClone);
 
 let arr = ['Main','Products','About us','Contacts'];
 
+let ul = document.createElement('ul');
+
 for (let itar of arr){
-    let ul = document.createElement('ul');
     let li = document.createElement('li');
     li.innerText = `${itar}`;
     ul.append(li);
-    document.body.append(ul);
 }
-
+document.body.append(ul);
 // Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
 // Завдання робити через цикли.
 
