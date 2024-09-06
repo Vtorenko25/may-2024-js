@@ -46,7 +46,7 @@ let carts_recipes = document.getElementById('carts_recipes');
 fetch('https://dummyjson.com/recipes')
     .then(res => res.json())
     .then(cartObject =>{
-        console.log(cartObject);
+        // console.log(cartObject);
         let {recipes} = cartObject;
         for(let recipe of recipes){
             let divRecipe = document.createElement('div');
